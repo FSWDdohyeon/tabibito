@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+
+/*초기화*/
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+#content h1{
+    border-bottom: 5px black dotted;
+    
+    margin-bottom: 15px;
+}
+fieldset{
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+    background-color: aliceblue;
+    height: 600px;
+    padding: 15px 100px 0 100px;
+    position: relative;
+}
+#should{
+    font-size: 14px;
+    text-align: right;
+    margin: 5px 5px 25px 0px;
+    position: relative;
+}
+#loginPage span{
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    text-indent: 10px;
+    overflow: hidden;
+    
+}
+#loginPage span::before{
+    font-family: "webcafeIcon";
+    content: "p";
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    left: -11px;
+}
+#content label{
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rgba(255, 100, 239,0.3);
+    width: 180px;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+}
+#content p{
+    border-top: 2px dotted black ;
+}
+#content p:last-child{
+    border-bottom: 2px dotted black ;
+}
+#content input{
+    width: 350px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 3px 3px 0 #ccc;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#idCheck{
+    top: -10px;
+
+}
+
+#idCheck , #check{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color:#ffdfef;
+    box-shadow: 1px 1px 1px black; 
+    cursor: pointer;
+}
+#join, #cancel{
+    position: relative;
+    left: 350px;
+    top : 50px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color:#ffdfef;
+    box-shadow: 1px 1px 1px black; 
+    cursor: pointer;
+}
+#join{
+    margin-right: 25px;
+}

@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*컨텐츠*/
+#content{
+    border-radius: 15px 15px 0 0;
+}
+
+    /*로그인 화면*/
+    .login{
+        position: absolute;
+        top :350px;
+        left: 1200px;
+        border-radius: 15px 15px 15px 15px;
+        border: 1px solid #ccc;
+        width: 350px;
+        height: 200px;
+        background: linear-gradient(#7d5e80 0%, #c96d7f 50%,#f38a6e 100%);
+    }
+    .login legend{
+        position: absolute;
+        left: -9999px;
+
+    }
+    .login fieldset{
+        margin:  10px 10px 10px 10px ;
+        background-color: linear-gradient(#7d5e80 0%, #c96d7f 50%,#f38a6e 100%);
+    }
+    .login h2 {
+        
+        padding-top: 10px;
+        text-align: center;
+        color: skyblue;
+        text-shadow: 2px 2px 1px black;
+    }
+    .login label{
+        display:inline-block;
+        width: 50px;
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 7px;
+        color: skyblue;
+        text-shadow: 2px 2px 1px black;
+    }
+    .login button{
+        position: relative;
+        left: 10px;
+        bottom: 25px;
+        width: 60px;
+        height: 60px;
+        color: skyblue;
+        font-weight: bold;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        
+    }
+    #userId{
+        margin-top: 10px;
+        height: 25px;
+        border: 1px solid #ccc;
+        background-color: #eee;
+    }
+    #userPW{
+        height: 25px;
+        border: 1px solid #ccc;
+        background-color: #eee;
+    }
+    .login p {
+        padding: 2px;
+        display: inline-block;
+    }
+    .memberPage{
+        position: relative;
+        left: 140px;
+        bottom: 8px;
+        
+    }
+    .memberPage a{
+        font-size: 12px;
+        padding-left: 10px;
+        color: skyblue;
+        text-shadow: 2px 2px 1px black;
+    }
+
+
+    /*간략 소개*/
+            .container{
+                margin-top: 100px;
+                position: relative;
+            
+            }
+            .innerContainer{
+                width: 350px;
+                float: left;
+                margin-left: 40px;
+            }
+
+            .container img{
+                width: 350px;
+                height: 300px;
+                color: white;
+                z-index: 20;
+                border-radius: 15px 15px 15px 15px;
+            }
+            .intro{
+                border-radius: 15px 15px 15px 15px;
+                position: absolute;
+                width: 350px;
+                height: 300px;
+                top: 0px ;
+                z-index: 10;
+                opacity: 0;
+                left: 0;
+                color: white;
+                transition: all, 0.5s;
+                text-align: center;
+                line-height: 80px;
+                background-color: rgba(100, 100, 100, 0.8);
+                
+            }
+           .container .innerContainer:hover .intro {
+                top: 300px ;
+                opacity: 1;
+                transform: translateY(-300px);
+            }
+            .tokyointro{
+                position: absolute;
+                left: 40px;
+            }
+            .osakaintro{
+                position: absolute;
+                left: 430px;
+            }
+            .fukuokaintro{
+                position: absolute;
+                left: 820px;
+            }
+
+            
+    /*지도 포탈*/
+    #potal{
+        width: 1200px;
+        position: relative;
+    }
+    #potal h2{
+        position: absolute;
+        bottom: 550px;
+        left: 50px;
+        font-size: 2em;
+        text-shadow: 2px 2px 1px #15c7a3;
+    }
+    #potal img{
+        margin-top: 100px;
+        width: 1200px;
+        height: 700px;
+    }
+    #Btokyo{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 650px;
+        bottom: 150px;
+        border: none;
+        border-radius: 50%;
+        white-space: nowrap;
+        transition: 1s;
+        background-color:#ffdfef;
+        font-weight: bold;
+    }
+    #Btokyo:hover{
+        transform: scale(1.5,1.5);
+    }
+    #Bosaka{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 400px;
+        bottom: 140px;
+        border: none;
+        border-radius: 50%;
+        white-space: nowrap;
+        transition: 1s;
+        background-color:#ffdfef;
+        font-weight: bold;
+    }
+    #Bosaka:hover{
+        transform: scale(1.5,1.5);
+    }
+    #Bfukuoka{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 100px;
+        bottom: 140px;
+        border: none;
+        border-radius: 50%;
+        white-space: nowrap;
+        transition: 1s;
+        background-color:#ffdfef;
+        font-weight: bold;
+    }
+    #Bfukuoka:hover{
+        transform: scale(1.5,1.5);
+    }
+
+
+
+/*컨텐츠 끝*/

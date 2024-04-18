@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+
+/*초기화*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*폰트*/
+@font-face {
+    font-family: "Gugi";
+    src: url(../font/Gugi-Regular.ttf);
+}
+@font-face {
+    font-family: "webcafeIcon";
+    src: url(../font/webcafeIcon.ttf);
+}
+
+
+li{
+    list-style: none;
+}
+
+/*앵커 가상선택자*/
+a:link{
+    text-decoration: none;
+    color: rgb(7, 54, 35);
+    text-shadow: 1px 1px 1px rgba(0,0, 0, 0.3);   /* 나중에 바꿀것*/
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(7, 54, 35);
+    text-shadow: 1px 1px 1px rgba(0,0, 0, 0.7);   /* 나중에 바꿀것*/
+}
+a:hover , a:focus {
+    text-decoration: underline;
+    color: royalblue;
+}
+
+
+
+
+/*앵커 가상선택자 끝*/
+
+/*바디 (백그라운드)*/
+
+header, #content, #contentsArea{
+    margin: 0 auto;
+    width: 1200px;
+}
+body{
+    background-image: linear-gradient(#50bcdf 0% , #aacdef 20% ,#ffffff 100% );
+    background-repeat: no-repeat;
+    font-family: "Gugi";
+
+}
+
+
+/*바디 (백그라운드) 끝*/
+
+
+/*헤더*/
+
+    #header>div{ 
+        background-color: white;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 90%;
+        height: 150px;
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 50px;
+        box-shadow: 5px 5px 1px gray;
+        position: relative;
+        left: 60px;
+    }
+    #header .logo{
+        display: inline-block;
+        width: 300px;
+        height: 150px;
+        
+    }
+    #header img{
+        width: 200px;
+        height: 100px;
+        border-right: 1px solid;
+        padding: 20px;
+        position: relative;
+        left: 20px;
+    }
+    nav{
+        width: 100%;
+        position: relative;
+        left: 350px;
+        top: -150px;
+        border: 10px;
+    }
+    
+    #header>#topmenu>#nav>#intopmenu>li{
+        width: 125px;
+        height: 50px;
+        display: inline-block;
+        list-style: none;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        padding-top: 10px ;
+        background-color: rgba(135, 206, 2350, 0.7);
+        border-radius: 50px;
+        text-decoration: none;
+        margin: 40px 50px 0 40px;
+    }
+    .journy li::before, .information li::before,.thread li::before{
+        font-family: "Webdings";
+        content: "j";
+        font-size: 32px;
+        color: #50bcdf;
+    }
+    .information{
+        position: relative;
+        left: 150px;
+    }
+    .thread{
+        position: relative;
+        left: 400px;
+    }
+
+
+    #header>#topmenu>#nav>#intopmenu>li>a.link{
+        color: white;
+    }
+    #header>#topmenu>#nav>#intopmenu>li>a.visited{
+        color: white;
+    }
+    #header>#topmenu>#nav>#intopmenu>li>ul{
+        display: none;
+        position: absolute;
+        white-space: nowrap;
+        z-index: 10px;
+    }
+    #header>#topmenu>#nav>#intopmenu>li:hover>ul{
+        display: block;
+    }
+    
+    #header>#topmenu>#nav>#intopmenu>li:hover>ul>li{
+        float: left;
+        margin : 30px 20px 0 0;
+        font-size: 16px;
+    }
+
+
+/*헤더 끝*/
+
+/* 비주얼*/
+#visual{
+    position: relative;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    height: 400px;
+    background: linear-gradient(#f38a6e 0% , #c96d7f 50%, #7d5e80 100%);
+}
+#visual h2 {
+    font-size: 2em;
+    position: absolute;
+    top: 30px;
+    left: 450px;
+    font-family: "궁서";
+    font-weight:bold;
+}
+#visual p {
+    font-size: 1.3em;
+    position: absolute;
+    left: 800px;
+    top: 350px;
+    font-weight: bold;
+    font-family: "궁서";
+    color:#fff;
+}
+#visual img{
+    width: 100%;
+    height: 400px;
+    opacity: 0.5;
+}
+
+/*비주얼 끝*/
+
+
+
+
+
+
+
+
+
+/*풋터*/
+
+#footer{
+    background-image: linear-gradient(#ffffff 0% ,#aacdef 50% , #50bcdf 100% );
+    border-radius: 15px 15px 0 0;
+    box-shadow: 5px 5px 1px gray;
+    position: relative;
+    border-radius: 20px 20px 0 0;
+    margin: 0 auto;
+}
+#footer img{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    left: 500px;
+    top: 20px;
+}
+
+.guide{
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+#footerMenu{
+    height: 20px;
+    width: 700px;
+    height: 30px;
+    position: absolute;
+    right: 350px;
+    top: 20px;
+    padding: 0 20px 0 20px;
+    background-color: rgba(250, 250, 250, 0.5);
+    font-size: 16px;
+}
+#footerMenu>li{
+    float: left;
+    border-right: 3px dotted #32CCBC;
+    margin-left: 100px;
+    
+}
+
+address{
+    display: inline-block;
+    position: relative;
+    font-style:normal;
+    font-weight: 400;
+    left: 900px;
+}
+
+/*풋터 끝*/

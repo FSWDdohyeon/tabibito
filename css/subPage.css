@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+/*초기화*/
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*이미지 설정*/
+#secend img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    z-index: 20;
+}
+
+#third img {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+
+
+/*유명여행지*/
+#first{
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 50px;
+}
+#firdiv{
+    background-color: aliceblue;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.5);
+}
+#firdiv h1{
+    padding: 10px 0 10px 0;
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0,0.5);
+    background-color: skyblue;
+    color: white;
+    
+}
+#firdiv p{
+    line-height: 40px;
+    padding: 20px;
+    font-size: 1em;
+    font-weight: bold;
+}
+#secend{
+    width: 1200px;
+    height: 400px;
+    border: 1px solid black;
+    position: relative;
+    background-color: aliceblue;
+}
+#secend li{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#secend h1{
+    position: relative;
+    margin: 20px auto;
+    text-align: center;
+    background-color: skyblue;
+    width: 300px;
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+    
+
+}
+#secend h2{
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+#third h2{
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+.p1{
+    
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 250px;
+    top: 0;
+    padding-top: 20px;
+    background-color:  rgba(0, 0, 0,0.5);
+    color: white;
+    line-height: 30px;
+    opacity: 0;
+    transition: all 1s;
+    rotate: -90deg;
+}
+.p1:hover{
+    opacity: 1;
+    transform:rotate(90deg);
+}
+.p2{
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 250px;
+    top: 0;
+    padding-top: 10px;
+    background-color:  rgba(0, 0, 0,0.5);
+    color: white;
+    line-height: 40px;
+    opacity: 0;
+    transition: all 1s;
+    rotate: -90deg;
+}
+.p2:hover{
+    opacity: 1;
+    transform:rotate(90deg);
+}
+.p3{
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 250px;
+    top: 0;
+    padding-top: 10px;
+    background-color:  rgba(0, 0, 0,0.5);
+    color: white;
+    line-height: 40px;
+    opacity: 0;
+    transition: all 1s;
+    rotate: -90deg;
+}
+.p3:hover{
+    opacity: 1;
+    transform:rotate(90deg);
+}
+.p4{
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 250px;
+    top: 0;
+    padding-top: 10px;
+    background-color:  rgba(0, 0, 0,0.5);
+    color: white;
+    line-height: 40px;
+    opacity: 0;
+    transition: all 1s;
+    rotate: -90deg;
+}
+.p4:hover{
+    opacity: 1;
+    transform:rotate(90deg);
+}
+
+/*근교도시*/
+#third{
+    width: 1200px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#third h1{
+    position: relative;
+    margin: 20px auto;
+    text-align: center;
+    background-color: skyblue;
+    width: 300px;
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+}
+#third li{
+    
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 150px;
+    position: relative;
+    margin-left: 180px;
+}
+
+.p5{
+    box-sizing: border-box;
+    padding: 10px;
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    top: 0;
+    padding-top: 10px;
+    background-color:  rgba(0, 0, 0,0.5);
+    color: white;
+    line-height: 40px;
+    opacity: 0;
+    transition: all 1s;
+    rotate: -90deg;
+}
+.p5:hover{
+    opacity: 1;
+    transform:rotate(90deg);
+}
+.p6{
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 250px;
+    top: 0;
+    padding-top: 10px;
+    background-color:  rgba(0, 0, 0,0.5);
+    color: white;
+    line-height: 40px;
+    opacity: 0;
+    transition: all 1s;
+    rotate: -90deg;
+}
+.p6:hover{
+    opacity: 1;
+    transform:rotate(90deg);
+}
+.p7{
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 250px;
+    top: 0;
+    padding-top: 10px;
+    background-color:  rgba(0, 0, 0,0.5);
+    color: white;
+    line-height: 40px;
+    opacity: 0;
+    transition: all 1s;
+    rotate: -90deg;
+}
+.p7:hover{
+    opacity: 1;
+    transform:rotate(90deg);
+}
+#contentsArea p span{
+    color: orangered;
+    margin-left: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
